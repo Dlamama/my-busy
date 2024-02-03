@@ -1,0 +1,71 @@
+html,
+body {
+    margin: 0;
+    height: 50%;
+    width: 100%;
+
+}
+
+.wrapper {
+    text-align: center;
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.mybutton {
+    margin-left: 0px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 0px;
+}
+
+.text {
+    margin-right: 0px;
+}
+
+.t {
+    color: aliceblue;
+    margin: 0px;
+}
+
+.item {
+    margin: 5px 0px;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+}
+
+.item button {
+    margin-left: 5px;
+}
+
+
+
+ul {
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+li {
+    margin-top: 0px;
+}
+
+li:nth-child(odd) {
+    background-color: aliceblue;
+
+}
+
+li:nth-child(even) {
+    background-color: grey;
+}
+
+
+.active {
+    text-decoration: line-through;
+}
